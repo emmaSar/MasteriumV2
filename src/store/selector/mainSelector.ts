@@ -1,0 +1,26 @@
+import { IMainState } from '../reducers/main';
+
+export const drawerStateSelector = ({ main: { isOpenDrawerMenu } }: { main: IMainState }) => isOpenDrawerMenu;
+export const isOpenSelector = ({ main: { isOpen } }: { main: IMainState }) => isOpen;
+export const bottomIndexSelector = ({ main: { bottomSelectIndex } }: { main: IMainState }) => bottomSelectIndex;
+export const daySelector = ({ main: { day } }: { main: IMainState }) => day;
+export const indexSelector = ({ main: { index } }: { main: IMainState }) => index;
+export const cartSelector = ({ main: { carts } }: { main: IMainState }) => carts;
+export const typesSelector = ({ main: { companyTypes } }: { main: IMainState }) => companyTypes;
+export const addressesSelector = ({ main: { addresses } }: { main: IMainState }) => addresses;
+export const mastersSelector = ({ main: { masters } }: { main: IMainState }) => masters;
+export const helpSelector = ({ main: { helps } }: { main: IMainState }) => helps;
+export const friendSelector = ({ main: { friends } }: { main: IMainState }) => friends;
+export const loadingSelector = ({ main: { loading } }: { main: IMainState }) => loading;
+export const popularProductsSelector = ({ main: { popularProducts } }: { main: IMainState }) => popularProducts;
+export const executorSelector = ({ main: { executor } }: { main: IMainState }) => executor;
+export const cardsSelector = ({ main: { credit_cards } }: { main: IMainState }) => credit_cards;
+export const errorSelector = ({ main: { errorMesaage } }: { main: IMainState }) => errorMesaage;
+export const chatUserIdSelector = ({ main: { chatUserId } }: { main: IMainState }) => chatUserId;
+export const elementSelector = ({ main: { element } }: { main: IMainState }) => element;
+export const unseenMessageSelector = ({ main: { unseenMessage } }: { main: IMainState }) => unseenMessage;
+export const unseenNotificationSelector = ({ main: { unseenNotification } }: { main: IMainState }) => unseenNotification;
+export const notificationSelector = ({ main: { notifications } }: { main: IMainState }) => notifications;
+export const languageSelector = ({ main: { language } }: { main: IMainState }) => language;
+export const fileSelector = ({ main: { file } }: { main: IMainState }) => file;
+export const adminPhoneSelector = ({ main: { admin_phone } }: { main: IMainState }) => admin_phone;

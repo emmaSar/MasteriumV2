@@ -1,0 +1,191 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myapp"
+4    android:versionCode="1"
+5    android:versionName="1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:5:5-64
+13-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:6:5-81
+14-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:7:5-80
+15-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:7:22-77
+16
+17    <uses-feature
+17-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:8:5-85
+18        android:name="android.hardware.camera"
+18-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:8:19-57
+19        android:required="false" />
+19-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:8:58-82
+20    <uses-feature
+20-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:9:5-91
+21        android:name="android.hardware.camera.front"
+21-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:9:19-63
+22        android:required="false" />
+22-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:9:64-88
+23
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:10:5-78
+24-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:10:22-76
+25    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+25-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:11:8-91
+25-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:11:25-88
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->[com.facebook.flipper:flipper:0.54.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2fa344e99fbc8cc928a5b46ed302cce1\jetified-flipper-0.54.0\AndroidManifest.xml:16:5-76
+26-->[com.facebook.flipper:flipper:0.54.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2fa344e99fbc8cc928a5b46ed302cce1\jetified-flipper-0.54.0\AndroidManifest.xml:16:22-73
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->[:react-native-get-location] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-get-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+27-->[:react-native-get-location] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-get-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+28
+29    <queries>
+29-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-14:15
+30        <intent>
+30-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-13:18
+31            <action android:name="android.media.action.IMAGE_CAPTURE" />
+31-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-73
+31-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:21-70
+32        </intent>
+33    </queries> <!-- Include required permissions for Google Maps API to run. -->
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6cbb003999cdf534abdf3d46633f78b1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+34-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6cbb003999cdf534abdf3d46633f78b1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+35
+36    <uses-feature
+36-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6cbb003999cdf534abdf3d46633f78b1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+37        android:glEsVersion="0x00020000"
+37-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6cbb003999cdf534abdf3d46633f78b1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+38        android:required="true" />
+38-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6cbb003999cdf534abdf3d46633f78b1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+39
+40    <application
+40-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:13:5-38:19
+41        android:name="com.myapp.MainApplication"
+41-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:14:7-38
+42        android:allowBackup="false"
+42-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:18:7-34
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7f5aeccd48d5bc731df0adf1c8d7029e\core-1.1.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:16:7-41
+46        android:label="@string/app_name"
+46-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:15:7-39
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:17:7-52
+48        android:theme="@style/AppTheme"
+48-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:19:7-38
+49        android:usesCleartextTraffic="true" >
+49-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:20:7-42
+50        <activity
+50-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:23:7-33:18
+51            android:name="com.myapp.MainActivity"
+51-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:24:9-37
+52            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+52-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:26:9-86
+53            android:label="@string/app_name"
+53-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:25:9-41
+54            android:launchMode="singleTask"
+54-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:27:9-40
+55            android:windowSoftInputMode="adjustResize" >
+55-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:28:9-51
+56            <intent-filter>
+56-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:29:9-32:25
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:30:13-65
+57-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:30:21-62
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:31:13-73
+59-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:31:23-70
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+62-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:34:7-84
+62-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:34:17-81
+63
+64        <meta-data
+64-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:35:7-37:74
+65            android:name="com.google.android.geo.API_KEY"
+65-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:36:17-62
+66            android:value="AIzaSyAaRAighFxo0wsrmMu_-XR1vHUsd2yUzlY" />
+66-->C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\android\app\src\main\AndroidManifest.xml:37:17-72
+67
+68        <provider
+68-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+69            android:name="com.vinzscam.reactnativefileviewer.FileProvider"
+69-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-75
+70            android:authorities="com.myapp.provider"
+70-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-60
+71            android:exported="false"
+71-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+72            android:grantUriPermissions="true" >
+72-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+73            <meta-data
+73-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:70
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+75                android:resource="@xml/file_viewer_provider_paths" />
+75-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+76        </provider>
+77        <provider
+77-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-27:20
+78            android:name="androidx.core.content.FileProvider"
+78-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-62
+79            android:authorities="com.myapp.provider"
+79-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-60
+80            android:exported="false"
+80-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-37
+81            android:grantUriPermissions="true" >
+81-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-47
+82            <meta-data
+82-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:70
+83                android:name="android.support.FILE_PROVIDER_PATHS"
+83-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+84                android:resource="@xml/provider_paths" />
+84-->[:react-native-file-viewer] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-file-viewer\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+85        </provider>
+86
+87        <activity
+87-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:72
+88            android:name="com.yalantis.ucrop.UCropActivity"
+88-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-60
+89            android:theme="@style/Theme.AppCompat.Light.NoActionBar" /> <!-- Needs to be explicitly declared on P+ -->
+89-->[:react-native-image-crop-picker] C:\Users\admin\Desktop\NEW DESIGN PROJECT\projectModel\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-69
+90        <uses-library
+90-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6cbb003999cdf534abdf3d46633f78b1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+91            android:name="org.apache.http.legacy"
+91-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6cbb003999cdf534abdf3d46633f78b1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+92            android:required="false" />
+92-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6cbb003999cdf534abdf3d46633f78b1\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ea9c34f2f0968d57b6b29868547f0686\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ea9c34f2f0968d57b6b29868547f0686\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ea9c34f2f0968d57b6b29868547f0686\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ea9c34f2f0968d57b6b29868547f0686\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8e4029ecd9801f45c00bae3ad3e06b95\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8e4029ecd9801f45c00bae3ad3e06b95\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\8e4029ecd9801f45c00bae3ad3e06b95\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>
